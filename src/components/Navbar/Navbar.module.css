@@ -1,0 +1,10 @@
+.navbar {
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.stretchedImage {
+    width: 100%;
+    height: auto;
+}

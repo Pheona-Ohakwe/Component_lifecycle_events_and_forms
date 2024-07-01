@@ -1,0 +1,60 @@
+.characterList {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    margin: 20px;
+}
+
+.characterItem {
+    background-color: #12133B;
+    border-radius: 8px;
+    box-shadow: 0 0px 5px #f44336;
+    /* overflow: hidden; */
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 200px;
+    color: white;
+}
+
+.characterItem:hover {
+    transform: translateY(-10px);
+}
+
+.characterItem img {
+    width: 100%;
+    height: auto;
+}
+
+.characterItem h2 {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.characterImage {
+    width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+}
+
+.loadMoreButton {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loadMoreButton:hover {
+    background-color: #0D4E8F;
+}

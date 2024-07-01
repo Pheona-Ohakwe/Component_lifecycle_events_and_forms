@@ -1,0 +1,48 @@
+.characterDetails {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.characterDetails h2 {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #f44336;
+}
+
+.characterInfo {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    color: #f44336;
+    border-top: 2px solid #12133B;
+    padding-top: 30px;
+    font-size: 24px !important;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.characterDetails p {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.characterDetails ul {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+.characterDetails ul li {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}

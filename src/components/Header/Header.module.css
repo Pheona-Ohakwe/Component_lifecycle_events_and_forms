@@ -1,0 +1,16 @@
+header {
+    color: #ED1A23;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logoImage {
+    max-width: 400px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.header h2 {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 35px;
+}

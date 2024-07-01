@@ -1,0 +1,65 @@
+@keyframes drop {
+    0% {
+        transform: translateY(-200px) scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(70vh) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.hulkContainer {
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 150px;
+    height: auto;
+    z-index: 2;
+}
+
+.hulk {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+.drop {
+    animation: drop 3s ease-in-out forwards, fadeOut 2s 3s forwards;
+}
+
+@media (max-width: 768px) {
+    @keyframes drop {
+        100% {
+            transform: translateY(70vh) scale(1); 
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    @keyframes drop {
+        0% {
+            opacity: 0; 
+        }
+        100% {
+            transform: translateY(60vh) scale(1); 
+            opacity: 1;
+        }
+    }
+}
